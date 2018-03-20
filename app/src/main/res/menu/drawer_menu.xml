@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:checked="false"
+            android:title="@string/First"
+            android:id="@+id/mn_first"
+            android:icon="@drawable/ic_account_black_24dp"
+            />
+        <item
+            android:checked="false"
+            android:id="@+id/mn_second"
+            android:title="@string/Second"
+            android:icon="@drawable/ic_account_black_24dp"
+            />
+        <item
+            android:checked="false"
+            android:id="@+id/mn_third"
+            android:title="@string/third"
+            android:icon="@drawable/ic_account_black_24dp"
+            />
+        <item
+            android:checked="false"
+            android:id="@+id/mn_four"
+            android:title="@string/four"
+            android:icon="@drawable/ic_account_black_24dp"
+            />
+    </group>
+</menu>
